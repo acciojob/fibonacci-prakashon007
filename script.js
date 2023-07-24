@@ -14,8 +14,9 @@ function fibonacci(num) {
 	for(let i=0;i<num;i++){
 		ans=a;
 		c=a+b;
-		b=c;
 		a=b;
+		b=c;
+		
 	}
 	return ans;
 	
